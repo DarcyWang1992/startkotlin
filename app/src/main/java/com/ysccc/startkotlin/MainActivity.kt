@@ -249,6 +249,8 @@ class MainActivity : AppCompatActivity() {
             button_long.text=if (is_found) "找到‘一’了" else "没有找到‘一’字"
         }
         /***
+         *
+         *
          * 空安全：
          * isNullOrEmpty:为空指针或者字符长度为0时返回true，非空字符串与可空串均可调用
          * isNullOrBlank:为空指针、字符串为0或者全为空格时返回true，非空字符串与可空串均可调用
