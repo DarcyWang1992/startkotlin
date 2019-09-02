@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+    
+    <TextView
+            android:id="@+id/tv_hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            />
+    
+    <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="点击"
+            />
+    <Button
+            android:id="@+id/long_click_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="长按"
+            />
+    <Button
+            android:id="@+id/button_int"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Int"
+            />
+    <Button
+            android:id="@+id/button_long"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="long"
+            />
+    <Button
+            android:id="@+id/button_float"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="float"
+            />
+    <Button
+            android:id="@+id/button_double"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="double"
+            />
+    <Button
+            android:id="@+id/button_string"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="string"
+            />
+    <Button
+            android:id="@+id/button_char"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="char"
+            />
+    <Button
+            android:id="@+id/button_boolean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="boolean"/>
+</LinearLayout>
