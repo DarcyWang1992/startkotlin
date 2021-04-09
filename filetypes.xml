@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="webp" type="Image" />
+      <mapping pattern="file_paths" type="XML" />
       <mapping pattern="dialog_bottom_in" type="XML" />
       <mapping pattern="dialog_bottom_out" type="XML" />
     </extensionMap>
